@@ -6,4 +6,4 @@ Problem_Statement:
 Reference Published Work
 Data:
 Software:
-Statisitcal Techniques
+Statistical Techniques
