@@ -7,7 +7,7 @@
 ##### Use of bots in artificially elevating certain issues on social media
 
 ### Problem_Statement: 
-##### In the time of internet, when social media is used to elevate problems of many. Organisations are using bots to artiificially increase the social media presence of topics and posts that help them. This has created a problem  
+##### In the time of internet, when social media is used to elevate problems of many. Organisations are using bots to artiificially increase the social media presence of topics and posts that help them. This may be a problem  
 ### Reference Work:
 ##### https://www.pewresearch.org/internet/2018/04/09/bots-in-the-twittersphere/
 ##### Google doc for summary and key takeaways:
