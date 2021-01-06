@@ -10,9 +10,9 @@ import pandas as pd
 
 from tweepy import Stream
 
-api_key = "9exQhKC8S7y3aVO0WAA9Bbu6p"
+api_key = ""
 consumer_key = api_key
-api_secret_key = "CVMUN6IvjyymmxHAVoUE4YYcDIG8Ib4VzXM7Zkby74lXP1SLyL"
+api_secret_key = ""
 consumer_secret = api_secret_key
 access_token = "1208023570246324224-iw43fIqVwpT9atvZKZ0jbsNTR7KcO7"
 access_token_secret= '9J2ntdryOsOJ4onjvK2Jma9TvIIchcP29VnsEydeh3sr5'
