@@ -40,3 +40,9 @@ Have requested access for the same for academic purpose.
 ### Methodology
 #### Running regression model on CRESCI data to understand how to fit a model to the data. Struggling with features currently.
 
+### Questions to be answered:
+#### What libraries are we going to use?
+#### What will we do the text data and how?
+#### How will we generate variables/features?
+
+
