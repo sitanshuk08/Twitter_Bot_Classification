@@ -10,12 +10,6 @@ import pandas as pd
 
 from tweepy import Stream
 
-api_key = ""
-consumer_key = api_key
-api_secret_key = ""
-consumer_secret = api_secret_key
-access_token = "1208023570246324224-iw43fIqVwpT9atvZKZ0jbsNTR7KcO7"
-access_token_secret= '9J2ntdryOsOJ4onjvK2Jma9TvIIchcP29VnsEydeh3sr5'
 
 
 from tweepy import OAuthHandler
