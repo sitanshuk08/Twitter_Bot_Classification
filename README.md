@@ -37,3 +37,6 @@ Have requested access for the same for academic purpose.
 ### Software: Python
 ### Statistical Techniques
 
+### Methodology
+#### Running regression model on CRESCI data to understand how to fit a model to the data. Struggling with features currently.
+
