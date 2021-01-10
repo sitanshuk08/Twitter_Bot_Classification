@@ -35,7 +35,11 @@
 ##### 
 
 ### Methodology
-#### Running regression model on CRESCI data to understand how to fit a model to the data.
+##### Running regression model on CRESCI data to understand how to fit a model to the data.
+###### import required libraries (numpy and pandas)
+###### reading the data file
+###### cleaning the dataset and processing the data to desired include desired variable, we have included following variables.
+
 
 ### Questions to be answered:
 #### What libraries are we going to use?
@@ -49,5 +53,6 @@
 ###### Not decided yet
 #### How will we generate variables/features?
 ###### Currently, based on certain research papers, we are using variables already provided in them currently and want to asses the accuracy of the model built on those variables.
-###### When we extract tweets from twitter, we are able to extract certain features of the tweet itself along with the user who tweeted it. For now we are going to study the user and not the tweet itself when deciding if the user is automated or not. 
+###### When we extract tweets from twitter, we are able to extract certain features of the tweet itself along with the user who tweeted it. For now we are going to study the user and not the tweet itself when deciding if the user is automated or not.
+###### 
 
