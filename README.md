@@ -1,7 +1,7 @@
 # Twitter Bot Classification
-### Team_Members: 
-##### Isha Goyal 
-##### Nayanika Bisht 
+### Team_Members:
+##### Isha Goyal
+##### Nayanika Bisht
 ##### Sitanshu Kumar
 ### Domain: Machine Learning
 ##### Use of bots in artificially elevating certain issues on social media
@@ -32,14 +32,20 @@
 ### Statistical Techniques
 ##### Logistics Regression for classification of Accounts into automated and genuine account
 ##### Synthetic Minority Oversampling Technique (SMOTE) and Near Miss algorithm for oversampling and undersampling to create a balanced training data
-##### 
+##### Standardisation or Normalisation for scaling of variables
+##### Cross Validation
 
 ### Methodology
-##### Running regression model on CRESCI data to understand how to fit a model to the data.
-###### import required libraries (numpy and pandas)
-###### reading the data file
-###### cleaning the dataset and processing the data to desired include desired variable, we have included following variables.
-
+Data preprocessing: na values and removing variables
+Standardisation or Normalisation
+Logistic Regression on Variables:
+SMOTE and Near Miss
+Confusion Matrix:
+Accuracy
+Precision
+Recall
+F1 Score
+Cross Validation
 
 ### Questions to be answered:
 #### What libraries are we going to use?
@@ -47,7 +53,7 @@
 ###### Tweepy to collect data from twitter
 ###### Pandas to manuplate dataframe
 ###### imbalanced-learn for SMOTE and near miss algorithm
-###### sklearn for conducting logistic regression regression
+###### sklearn for conducting logistic regression regression, scaling the variables and cross validation
 ###### matplotlib.pyplot to create plots to undersatand the fit
 #### What will we do the text data and how?
 ###### Not decided yet
@@ -55,4 +61,3 @@
 ###### Currently, based on certain research papers, we are using variables already provided in them currently and want to asses the accuracy of the model built on those variables.
 ###### When we extract tweets from twitter, we are able to extract certain features of the tweet itself along with the user who tweeted it. For now we are going to study the user and not the tweet itself when deciding if the user is automated or not.
 ###### 
-
