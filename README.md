@@ -18,6 +18,7 @@
 ##### https://science.sciencemag.org/content/359/6380/1146.full
 
 ##### Google doc for summary and key takeaways:
+https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/edit?usp=sharing
 
 ##### Google doc for summary and key takeaways (Nayanika): https://docs.google.com/document/d/17g36Qs5qLrHx_KK6EoTt5iSeqtA2QioTqRpiIEZWUoA/edit
 ##### Google doc for summary and key takeaways (Isha): https://docs.google.com/document/d/1gJdi4KgQt34TlEM67sF-nZWESHRdiLqoA9nXdxJ704U/edit
