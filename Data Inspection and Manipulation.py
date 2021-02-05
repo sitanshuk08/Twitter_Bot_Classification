@@ -30,7 +30,9 @@ df.head()
 
 
 #dropping redundant and deprecated variables 
-df = df.drop(["url","lang","geo_enabled","time_zone","location","profile_image_url","profile_banner_url","profile_use_background_image","profile_background_image_url_https","profile_text_color","profile_image_url_https","profile_sidebar_border_color","profile_background_tile","profile_sidebar_fill_color","profile_background_image_url","profile_background_color","profile_link_color","utc_offset","is_translator","follow_request_sent","notifications","description","contributors_enabled","following","created_at","timestamp","crawled_at","updated","random","testset"], axis = 1)
+
+# do not drop "url, lang, geo_enabled, time_zone, "profile_image_url","profile_banner_url","profile_use_background_image","profile_background_image_url_https","profile_text_color","profile_image_url_https","profile_sidebar_border_color","profile_background_tile","profile_sidebar_fill_color","profile_background_image_url","profile_background_color","profile_link_color",
+df = df.drop(["url","lang","geo_enabled","time_zone","location","utc_offset","is_translator","follow_request_sent","notifications","description","contributors_enabled","following","created_at","timestamp","crawled_at","updated","random","testset"], axis = 1)
 
 
 # In[5]:
