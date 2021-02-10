@@ -24,7 +24,7 @@ https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/
 ##### Google doc for summary and key takeaways (Isha): https://docs.google.com/document/d/1gJdi4KgQt34TlEM67sF-nZWESHRdiLqoA9nXdxJ704U/edit
 ##### Google doc summary of the Summary and key takeaways (Sitanshu): https://docs.google.com/document/d/1XVk-tJ_BCr5eNHcXQePiczPIyKwqN5y2uHl-IbZhTZk/edit?usp=sharing
 
-### Data: To be scraped from twitter based on topics trending.
+### Data: To be scraped from twitter based on topics trending
 ###### We have (for now) decided to use trending topics using hashtags as the likelihood of bots being employed is higher. In case of political viewpoints, we will take opposing views together to assess if either of the trend is more likely to be artificially elevated.
 ###### Link to the google sheet with basic info about extracted tweets: https://docs.google.com/spreadsheets/d/1w3rFa2pzfRUg9t5VpGKMv_Fmw2TMpofLoF9PO7dZCyQ/edit?usp=sharing
 
@@ -62,3 +62,14 @@ Cross Validation
 ###### Currently, based on certain research papers, we are using variables already provided in them currently and want to asses the accuracy of the model built on those variables.
 ###### When we extract tweets from twitter, we are able to extract certain features of the tweet itself along with the user who tweeted it. For now we are going to study the user and not the tweet itself when deciding if the user is automated or not.
 ###### 
+
+
+
+## Meeting 3 
+##### Data Dictionary: https://docs.google.com/document/d/1GTVCl7X848DRhEv8OSf59kfoBl-k3z8H7o3CFs2lm5U/edit 
+
+
+
+
+
+
