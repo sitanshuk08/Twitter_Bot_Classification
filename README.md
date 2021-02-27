@@ -4,7 +4,8 @@
 ##### Nayanika Bisht
 ##### Sitanshu Kumar
 ### Domain: Machine Learning
-##### Use of bots in artificially elevating certain issues on social media
+##### Primary: Use of bots in artificially elevating certain issues on social media
+###### Secondary: Identifying bots based on prior classification based on research papers.
 
 ### Problem_Statement: 
 ##### In the time of internet, when social media is used to elevate problems of many. Organisations are using bots to artiificially increase the social media presence of topics and posts that help them. This may be a problem  
@@ -24,13 +25,15 @@ https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/
 ##### Google doc for summary and key takeaways (Isha): https://docs.google.com/document/d/1gJdi4KgQt34TlEM67sF-nZWESHRdiLqoA9nXdxJ704U/edit
 ##### Google doc summary of the Summary and key takeaways (Sitanshu): https://docs.google.com/document/d/1XVk-tJ_BCr5eNHcXQePiczPIyKwqN5y2uHl-IbZhTZk/edit?usp=sharing
 
-### Data: To be scraped from twitter based on topics trending
+### Data: To be scraped from twitter based on topics trending and CRESCI data set (Prior classified data for training purpose.
 ###### We have (for now) decided to use trending topics using hashtags as the likelihood of bots being employed is higher. In case of political viewpoints, we will take opposing views together to assess if either of the trend is more likely to be artificially elevated.
 ###### Link to the google sheet with basic info about extracted tweets: https://docs.google.com/spreadsheets/d/1w3rFa2pzfRUg9t5VpGKMv_Fmw2TMpofLoF9PO7dZCyQ/edit?usp=sharing
 
 
 ### Software: Python
 ### Statistical Techniques
+##### Exploratory Data Analysis for understanding bot/spam behavior and using the same on our data.
+##### Transforming the data to deal with skewness and outliers
 ##### Logistics Regression for classification of Accounts into automated and genuine account
 ##### Synthetic Minority Oversampling Technique (SMOTE) and Near Miss algorithm for oversampling and undersampling to create a balanced training data
 ##### Standardisation or Normalisation for scaling of variables
@@ -38,6 +41,7 @@ https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/
 
 ### Methodology
 Data preprocessing: na values and removing variables
+Understanding the data 
 Standardisation or Normalisation
 Logistic Regression on Variables:
 SMOTE and Near Miss
@@ -68,7 +72,31 @@ Cross Validation
 ## Meeting 3 
 ##### Data Dictionary: https://docs.google.com/document/d/1GTVCl7X848DRhEv8OSf59kfoBl-k3z8H7o3CFs2lm5U/edit 
 
+#### Questions raised:
 
+######    How to correctly treat the categorical data in a data frame?
+
+###### How to deal with independent but correlated data? In general, what are the impacts of violation of assumption of model on data and how to treat them effectively?
+
+
+###### Log transformation and it’s limitation:
+
+###### Box Plot and it’s limitation:
+
+######    Works with quantile and is highly dependent on second moments
+
+###### Skewness and Kurtosis of data can not be quantified. Specifically, kurtosis.
+
+######    Univariate Analysis and may result in wrong conclusions
+
+
+###### ** Read about Robustness library in R, Adjusted Box plot help document and the research paper included in it.
+
+###### Read about Box-Cox transformation.
+
+###### Statistics that allows us to test the categorical variables.
+
+###### State the hypothesis clearly in notebook.
 
 
 
