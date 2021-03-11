@@ -26,13 +26,18 @@ https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/
 ##### Google doc summary of the Summary and key takeaways (Sitanshu): https://docs.google.com/document/d/1XVk-tJ_BCr5eNHcXQePiczPIyKwqN5y2uHl-IbZhTZk/edit?usp=sharing
 
 ### Data: To be scraped from twitter based on topics trending and CRESCI data set (Prior classified data for training purpose.
-###### We have (for now) decided to use trending topics using hashtags as the likelihood of bots being employed is higher. In case of political viewpoints, we will take opposing views together to assess if either of the trend is more likely to be artificially elevated.
-###### Link to the google sheet with basic info about extracted tweets: https://docs.google.com/spreadsheets/d/1w3rFa2pzfRUg9t5VpGKMv_Fmw2TMpofLoF9PO7dZCyQ/edit?usp=sharing
-
+##### We have (for now) decided to use trending topics using hashtags as the likelihood of bots being employed is higher. In case of political viewpoints, we will take opposing views together to assess if either of the trend is more likely to be artificially elevated.
+##### Link to the google sheet with basic info about extracted tweets: https://docs.google.com/spreadsheets/d/1w3rFa2pzfRUg9t5VpGKMv_Fmw2TMpofLoF9PO7dZCyQ/edit?usp=sharing
+##### Training data: Cresci
+###### traditional spambots 4: job and job related offering profiles
+###### traditional spambots 3: dormant account, last active around 2011
+###### traditional spambots 2: prize money, lottery accounts
+###### traditional spambots 1: without profile image
 
 ### Software: Python
 ### Statistical Techniques
 ##### Exploratory Data Analysis for understanding bot/spam behavior and using the same on our data.
+##### Transformation of Categorical Data for further analysis
 ##### Transforming the data to deal with skewness and outliers
 ##### Logistics Regression for classification of Accounts into automated and genuine account
 ##### Synthetic Minority Oversampling Technique (SMOTE) and Near Miss algorithm for oversampling and undersampling to create a balanced training data
@@ -41,7 +46,8 @@ https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/
 
 ### Methodology
 Data preprocessing: na values and removing variables
-Understanding the data 
+Understanding the data
+Using one hot encoding for categorical data transformation
 Standardisation or Normalisation
 Logistic Regression on Variables:
 SMOTE and Near Miss
