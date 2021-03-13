@@ -83,7 +83,12 @@ Cross Validation
 ######    How to correctly treat the categorical data in a data frame?
 
 ###### How to deal with independent but correlated data? In general, what are the impacts of violation of assumption of model on data and how to treat them effectively?
-
+####### Multicollinearity only a problem for the variables that are collinear. It increases the standard errors of their coefficients, and it may make those coefficients unstable in several ways.
+####### Variance Inflation Factor [VIF]: estimates how much the variance of a coefficient is “inflated” because of linear dependence with other predictors i.e. high VIF implies multicollinearity
+####### Situations where high VIFs can be ignored:
+####### 1. Variables with high VIFs are control variables, and the variables of interest do not have high VIFs
+####### 2. High VIFs are caused by the inclusion of powers or products of other variables
+####### 3. Variables with high VIFs are indicator (dummy) variables that represent a categorical variable with three or more categories
 
 ###### Log transformation and it’s limitation:
 
