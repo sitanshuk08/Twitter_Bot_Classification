@@ -80,10 +80,14 @@ Cross Validation
 
 #### Questions raised:
 
-######    How to correctly treat the categorical data in a data frame?
+##### How to correctly treat the categorical data in a data frame?
+###### The following link mentions few ways to deal with the categorical data:
+        https://towardsdatascience.com/understanding-feature-engineering-part-2-categorical-data-f54324193e63
+###### Strictly speaking One hot Encoding Scheme is used to label n levels of categorical variable into n-1 indicator variables which can be fitted in regression model. There are other methods like Ordinal Encoding, Dummy Coding scheme, effect coding scheme and Feature Hasher. 
 
 
-###### How to deal with independent but correlated data? In general, what are the impacts of violation of assumption of model on data and how to treat them effectively?
+
+##### How to deal with independent but correlated data? In general, what are the impacts of violation of assumption of model on data and how to treat them effectively?
 ###### Multicollinearity only a problem for the variables that are collinear. It increases the standard errors of their coefficients, and it may make those coefficients unstable in several ways.
 ###### Variance Inflation Factor [VIF]: estimates how much the variance of a coefficient is “inflated” because of linear dependence with other predictors i.e. high VIF implies multicollinearity
 ###### Situations where high VIFs can be ignored:
