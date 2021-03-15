@@ -111,8 +111,10 @@ Cross Validation
 ###### Since the original Boxplot is based on normal data, at times in case of skewed data boxplot may suggest wrong classification. Research was done in this regard and Medcouple and other statistics were developed.  
 
 ###### Read about Box-Cox transformation.
+###### A Box Cox transformation is a transformation of a non-normal dependent variables into a normal shape. https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203 This article depicts how this transformation changes a non normal distribution to look something like a Normal Distribution.
 
 ###### Statistics that allows us to test the categorical variables.
+###### We use chi-square to test for independence of the features using contingency tables. Also, we can use Wald's statistic to test whether a feature is significant to the model, but this step is after fitting the model.
 
 ###### State the hypothesis clearly in notebook.
 
