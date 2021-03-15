@@ -86,7 +86,6 @@ Cross Validation
 ###### Strictly speaking One hot Encoding Scheme is used to label n levels of categorical variable into n-1 indicator variables which can be fitted in regression model. There are other methods like Ordinal Encoding, Dummy Coding scheme, effect coding scheme and Feature Hasher. 
 
 
-
 ##### How to deal with independent but correlated data? In general, what are the impacts of violation of assumption of model on data and how to treat them effectively?
 ###### Multicollinearity only a problem for the variables that are collinear. It increases the standard errors of their coefficients, and it may make those coefficients unstable in several ways.
 ###### Variance Inflation Factor [VIF]: estimates how much the variance of a coefficient is “inflated” because of linear dependence with other predictors i.e. high VIF implies multicollinearity
@@ -107,7 +106,9 @@ Cross Validation
 ######    Univariate Analysis and may result in wrong conclusions
 
 
-###### ** Read about Robustness library in R, Adjusted Box plot help document and the research paper included in it.
+##### ** Read about Robustness library in R, Adjusted Box plot help document and the research paper included in it.
+
+###### Since the original Boxplot is based on normal data, at times in case of skewed data boxplot may suggest wrong classification. Research was done in this regard and Medcouple and other statistics were developed.  
 
 ###### Read about Box-Cox transformation.
 
