@@ -118,6 +118,14 @@ Cross Validation
 
 ###### State the hypothesis clearly in notebook.
 
+## Meeting 4
 
+##### Primary tasks
+
+###### Making use of one hot encoding for data transformationn of categorical variable.
+###### Use of chi square test statistics for independence of attributes
+###### https://towardsdatascience.com/how-to-test-for-statistically-significant-relationships-between-categorical-variables-with-chi-66c3ebeda7cc
+###### What would be the ideal workflow, from this point onwards?
+###### 
 
 
