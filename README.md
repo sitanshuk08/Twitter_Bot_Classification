@@ -13,20 +13,6 @@
 
 
 ### Reference Work:
-##### https://www.pewresearch.org/internet/wp-content/uploads/sites/9/2018/04/PI_2018.04.09_Twitter-Bots_FINAL.pdf
-##### Summary: https://www.pewresearch.org/internet/2018/04/09/bots-in-the-twittersphere/
-##### https://botometer.iuni.iu.edu/#!/
-##### https://core.ac.uk/download/pdf/237398342.pdf
-##### https://science.sciencemag.org/content/359/6380/1146.full
-
-
-
-##### Google doc for summary and key takeaways: https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/edit?usp=sharing
-##### Google doc for summary and key takeaways (Nayanika): https://docs.google.com/document/d/17g36Qs5qLrHx_KK6EoTt5iSeqtA2QioTqRpiIEZWUoA/edit
-##### Google doc for summary and key takeaways (Isha): https://docs.google.com/document/d/1gJdi4KgQt34TlEM67sF-nZWESHRdiLqoA9nXdxJ704U/edit
-##### Google doc summary of the Summary and key takeaways (Sitanshu): https://docs.google.com/document/d/1XVk-tJ_BCr5eNHcXQePiczPIyKwqN5y2uHl-IbZhTZk/edit?usp=sharing
-
-
 
 ### Data: To be scraped from twitter based on topics trending and CRESCI data set (Prior classified data for training purpose.
 ##### We have (for now) decided to use trending topics using hashtags as the likelihood of bots being employed is higher. In case of political viewpoints, we will take opposing views together to assess if either of the trend is more likely to be artificially elevated.
@@ -134,5 +120,30 @@ Cross Validation
 ###### https://towardsdatascience.com/how-to-test-for-statistically-significant-relationships-between-categorical-variables-with-chi-66c3ebeda7cc
 ###### What would be the ideal workflow, from this point onwards?
 ###### 
+
+
+
+
+
+
+
+
+### Reference and other docs created while working on the project.
+##### https://www.pewresearch.org/internet/wp-content/uploads/sites/9/2018/04/PI_2018.04.09_Twitter-Bots_FINAL.pdf
+##### Summary: https://www.pewresearch.org/internet/2018/04/09/bots-in-the-twittersphere/
+##### https://botometer.iuni.iu.edu/#!/
+##### https://core.ac.uk/download/pdf/237398342.pdf
+##### https://science.sciencemag.org/content/359/6380/1146.full
+
+
+
+##### Google doc for summary and key takeaways: https://docs.google.com/document/d/1vd5kVM37eidYJXnUK3_SNztA0aYqo3kZJeJnXLVBLeE/edit?usp=sharing
+##### Google doc for summary and key takeaways (Nayanika): https://docs.google.com/document/d/17g36Qs5qLrHx_KK6EoTt5iSeqtA2QioTqRpiIEZWUoA/edit
+##### Google doc for summary and key takeaways (Isha): https://docs.google.com/document/d/1gJdi4KgQt34TlEM67sF-nZWESHRdiLqoA9nXdxJ704U/edit
+##### Google doc summary of the Summary and key takeaways (Sitanshu): https://docs.google.com/document/d/1XVk-tJ_BCr5eNHcXQePiczPIyKwqN5y2uHl-IbZhTZk/edit?usp=sharing
+
+
+
+
 
 
